@@ -1,7 +1,7 @@
 # Installing Apache Ant
 
 Apache Ant is a software, thus it requires installation wherever you want to use it.
-We will install the 1.10.9 version.
+We will install the 1.10.12 version.
 
 ### Pre-requisite
 
@@ -14,7 +14,7 @@ For Mac users who use brew to install packages (highly recommended in general), 
 
 For Windows and Linux, proceed as follows:
 
-* Download [Apache-Ant-1.10.9 binaries](http://apache.spd.co.il/ant/binaries/apache-ant-1.10.9-bin.zip). 
+* Download [Apache-Ant-1.10.12 binaries](http://apache.spd.co.il/ant/binaries/apache-ant-1.10.12-bin.zip). 
  It is a zip file.
 
 * Unzip the zip file to a convenient location (e.g. `C:\Users\User`). 
@@ -23,10 +23,10 @@ To unzip on Windows, you can use [7-zip](https://www.7-zip.org/) or similar prog
 ### Set environment variables (Windows and Linux)
 
 * Create a new environment variable called ANT_HOME that points to the 
-Ant installation folder, in our example, the `C:\User\User\apache-ant-1.10.9-bin` folder.
+Ant installation folder, in our example, the `C:\User\User\apache-ant-1.10.12-bin` folder.
 
 * Append the path to the Apache Ant batch file to the PATH environment variable. 
-In our example this would be the `C:\User\User\apache-ant-1.10.9-bin\bin` folder.
+In our example this would be the `C:\User\User\apache-ant-1.10.12-bin\bin` folder.
 You can now run `ant` commands from anywhere on your system.
 
 If you are not sure how to create or modify an environment variable, 
@@ -41,8 +41,7 @@ here are simple guides for [Windows](https://www.architectryan.com/2018/08/31/ho
  
  You should see an output similar to −
  ```$xslt
-C:\Users\User> ant -version
-Apache Ant(TM) version 1.10.9 compiled on September 27 2020
+Apache Ant(TM) version 1.10.12 compiled on October 13 2021
 ```
 
 ## Integration with IDEs

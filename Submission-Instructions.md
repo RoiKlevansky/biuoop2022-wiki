@@ -4,12 +4,12 @@ Please follow them completely, or we will not be able to grade you code, and you
 
 * Use the [submit](http://submit.cs.biu.ac.il/) system.
 * All your code should reside in a single `.zip` file named `assN.zip` where `N` is the assignment number.
-* When the zip file is extracted, it should create a sub-directory called `src`. 
-All your other code should reside under the `src` directory. 
-You can create other directories if you want.
+* When the zip file is extracted, it should create a sub-directory called `src` 
+  and the ANT config file `build.xml` (see next section). All your other code should reside under the `src` directory. 
+You can create other directories if you want. The command line to correctly zip the assignment
+  is `zip -r assN.zip build.xml src`.
 * When compiling your code, we will export the compiled `.class` files into a sub-directory named `bin`. 
-This is a common project structure. 
-* Your extracted zip directory (to which we refer as your _root directory_) should include a file named `build.xml` (See next section).  
+This is a common project structure.
 * We may ask you to call certain classes in certain names. Please do so.
 
 
@@ -77,7 +77,7 @@ In the `build.xml` we will provide for each assignment, you will also have:
  Please use it before you zip your assignment's root directory - you should not submit any `.class` files.
  * a `check` target - this is for your convenience. 
  
- For Windows and Linux only: if you copy our provided `checkstyle-5.7-all.jar` and `biuoop.xml` to your root directory, 
+ For Windows and Linux only: if you copy our provided `checkstyle-8.44-all.jar` and `biuoop.xml` to your root directory, 
  `ant check` will run the checkstyle on all the `.java` files under `src` (and recursively its subdirectories, if any).
  For Mac users, please run the checkstyle using the command line, as described in [[CodingStyle]] 
 
@@ -92,7 +92,6 @@ ant, since this is how graders will check your work.
 We should be able to run the following commands (on unix) to run your code:
 ```bash
 unzip ass1.zip
-cd ass1
 ant compile
 ant run
 ```

@@ -31,7 +31,7 @@ the checkstyle test with NO errors.
 ### Using Checkstyle
 
 Download the files:
-* [checkstyle-5.7-all.jar](data/checkstyle/checkstyle-5.7-all.jar) 
+* [checkstyle-8.44-all.jar](data/checkstyle/checkstyle-8.44-all.jar) 
 * [biuoop.xml](data/checkstyle/biuoop.xml)
 
 The first file is the checkstyle software, the second is the configuration file we provide, specifying the coding convention we require.
@@ -39,25 +39,25 @@ You can have a look at the content of `biuoop.xml` if you are interested.
 
 Running checkstyle:
 ```bash
-> java -jar checkstyle-5.7-all.jar -c biuoop.xml JavaFile1.java JavaFile2.java ...
+> java -jar checkstyle-8.44-all.jar -c biuoop.xml JavaFile1.java JavaFile2.java ...
 ```
 
 The `...` at the end indicate that you can add any number of java files. You can also specify many files using wildcards:
 
 ```bash
-> java -jar checkstyle-5.7-all.jar -c biuoop.xml path/to/code/*.java
+> java -jar checkstyle-8.44-all.jar -c biuoop.xml path/to/code/*.java
 ```
 
 ### A small exercise
 
 This small exercise will help you make sure you get checkstyle to work:
 
-* Download `checkstyle-5.7-all.jar` and `biuoop.xml` from above.
+* Download `checkstyle-8.44-all.jar` and `biuoop.xml` from above.
 * Download the following code file [FailingCheckstyleCode.java](data/checkstyle/FailingCheckstyleCode.java)
 
 Run the following command
 ```bash
-java -jar checkstyle-5.7-all.jar -c biuoop.xml FailingCheckstyleCode.java
+java -jar checkstyle-8.44-all.jar -c biuoop.xml FailingCheckstyleCode.java
 ```
 
 You should see many checkstyle errors.
