@@ -12,7 +12,7 @@ Assignments should be submitted through the [Submission System](http://submit.cs
 We have prepared a detailed [technical guide](https://docs.google.com/document/d/1L5ryhn8VO73n19YRb6iNMXXYl0vDo0m84YIN3_Rd3Ao/edit?usp=sharing) 
 (from previous years) with general things you should probably know, especially when working from Windows. Have a look.
 In addition, Ayal Klein (TA of the course in 2020) prepared very useful [videos](https://www.youtube.com/watch?v=Sr8iEftSWfI&list=PLtQ-fYSVAsxrvXVIKUtriFwz53Pn1N1m-&index=1)
- in hebrew, explaining how to install JDK 13 (we will use JDK 15) and some other stuff. 
+ in hebrew, explaining how to install JDK 13 (we will use JDK 17) and some other stuff. 
 
 
 ## Install Java
