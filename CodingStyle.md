@@ -69,7 +69,7 @@ There is a [plugin](https://plugins.jetbrains.com/plugin/1065-checkstyle-idea) f
 1. Go to Settings (Ctrl + Alt + S) -> Plugins -> search for "checkstyle", install "CheckStyle-IDEA" and reload IntelliJ.
 2. Go to Settings -> Editor -> Inspections -> make sure you activate the Checkstyle inspection
 3. To configure the checkstyle with our configuration file (biuoop.xml): Settings -> Other Settings -> Checkstyle. There:
-    - In Checkstyle version, select 8.0.
+    - In Checkstyle version, select 8.44.
     - Under Configuration File, click Add (+). 
     Provide a name (Description) and then Browse to the biuoop.xml configuration file we have provided. 
     Click Next and Finish. Then, back in the Settings window, click Apply. 
