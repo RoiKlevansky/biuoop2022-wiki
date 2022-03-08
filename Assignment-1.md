@@ -1,7 +1,12 @@
+Due Date: 15/4/2022, 23:59.
+
+As for all assignments, we provide you the [build.xml](code/ass1/build.xml) for ant. 
+
 ## Java for C programmers
 
 In this assignment you will write a few simple java programs in a procedural (**not** Object Oriented) style.
 The purpose of this assignment is to refresh your memory on the *Intro to CS* course material, and get you up to speed with the basic java syntax.
+For each task, you can assume that the argument is correct.
 
 ### Task 1: Factorial
 
@@ -10,6 +15,13 @@ Write a program for calculating the factorial function. Your code should reside 
 For example, invocation of your program should look like this:
 ```bash
 > java Factorial 5
+recursive: 120
+iterative: 120
+```
+
+or with Ant
+```bash
+> ant run1 -Dargs="5"
 recursive: 120
 iterative: 120
 ```
@@ -39,6 +51,16 @@ max: 12
 avg: 3.2
 ```
 
+or with Ant
+```bash
+> ant run2 -Dargs="12 2 3 -9 8"
+min: -9
+max: 12
+avg: 3.2
+```
+
+
+
 Your program must define and use (at least) the following functions:
 ```java
 public static int[] stringsToInts(String[] numbers);
@@ -57,6 +79,14 @@ Write a program called Sort that will take a sorting order followed by a list of
 > java Sort desc 12 2 3 -9 8 
 12 8 3 2 -9
 ```
+or with ant: 
+```bash
+> ant run3 -Dargs="asc 12 2 3 -9 8" 
+-9 2 3 8 12
+> java run3 -Dargs= "desc 12 2 3 -9 8" 
+12 8 3 2 -9
+```
+
 
 here, `asc` means ascending order and `desc` means descending order.
 
@@ -75,10 +105,10 @@ For sorting, you can use the [Bubble Sort](http://en.wikipedia.org/wiki/Bubble_s
 
 ## Submission Instructions
 
-Submit through the [Submission System](http://submit.cs.biu.ac.il)
+**Important:** The first row of each file should include your ID and your name as follows: ``// 012345678 David Cohen``
+
+Submit through the [Submission System](http://submit.cs.biu.ac.il). 
 
 Please follow the general [[Submission Instructions]] for the course.
 
 Make sure your code follows the [[CodingStyle]].
-
-You may ask questions on [piazza](https://piazza.com/biu.ac.il/spring2019/oop/home)
