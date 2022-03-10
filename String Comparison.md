@@ -39,4 +39,4 @@ public class HelloWorld {
 ```
 
 That being said, I highly recommend comparing string objects 
-using `str1.equals(str2)` as it **always** compares string values and not address. 
+using `str1.equals(str2)` as it **always** compares string values and not addresses. 
