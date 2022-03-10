@@ -24,9 +24,6 @@ You can read more at this [link](https://www.java67.com/2014/08/difference-betwe
 See below a snippet of code to exemplify this difference. 
 
 ```java
-/**
- * @author Arie Cattan
- */
 public class HelloWorld {
    
     public static void main(String[] args) {
