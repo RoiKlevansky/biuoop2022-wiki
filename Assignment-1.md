@@ -105,7 +105,10 @@ For sorting, you can use the [Bubble Sort](http://en.wikipedia.org/wiki/Bubble_s
 
 ## Submission Instructions
 
-**Important:** The first row of each file should include your ID and your name as follows: ``// 012345678 David Cohen``
+**Important:** The first row of each file should include your ID and your name as follows:
+``// 012345678 David Cohen`` (not in the Javadoc)
+
+It's not allowed to import any JAVA class. 
 
 Submit through the [Submission System](http://submit.cs.biu.ac.il). 
 
