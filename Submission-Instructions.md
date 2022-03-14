@@ -2,7 +2,7 @@
 
 Please follow them completely, or we will not be able to grade you code, and you will receive a 0 grade for the assignment.
 
-* Use the [submit](http://submit.cs.biu.ac.il/) system.
+* Use the [submit](https://submit.cs.biu.ac.il/) system.
 * All your code should reside in a single `.zip` file named `assN.zip` where `N` is the assignment number.
 * When the zip file is extracted, it should create a sub-directory called `src` 
   and the ANT config file `build.xml` (see next section). All your other code should reside under the `src` directory. 
